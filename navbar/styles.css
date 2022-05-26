@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', 'sans-serif';
+    background-color: #7858A6;
+}
+
+button, input{
+    font-family: 'Montserrat', 'sans-serif';
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    padding: 20px;
+    background-color: #371B58;
+    color: white;
+}
+
+.sub-cat{
+    display: none;
+    position: absolute;
+    color: white;
+}
+
+.cat-dropdown:hover .sub-cat{
+    display: flex;
+    flex-direction: column;
+    background-color: #354259;
+    color: aqua;
+    padding: 10px;
+    animation: fadeIn 1s;
+    box-shadow: 0px 8px 16px 0px rgba(112,112,112,0.2);
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: '1';
+    }
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0px;
+}  
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
