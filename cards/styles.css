@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+input, button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 8px 0px;
+    border: solid 1px #ecdddd;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #3167eb;
+    color: white;
+}
+
+.custom-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 16px;
+    margin: auto ;
+    border: solid 1px #ecdddd;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #ecdddd;
+}
+
+.card-header{
+    font-weight: 800;
+    font-size: large;
+}
